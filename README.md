@@ -1,0 +1,1 @@
+Simple Exercize for my school for creating a table with covid-statistics using https://api.covid19api.com/summary API with Javascript.

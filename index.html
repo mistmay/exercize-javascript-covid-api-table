@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Giuseppe Marchesiello">
+    <meta name="description" content="Exercize Html Javascript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Covid-19 Info</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>Covid-19 Statistics:</h1>
+            <p>Last Update: <span id="last-update"></span></p>
+            <p>Total Confirmed: <span id="total-confirmed"></span></p>
+            <p>Highest Total Confirmed Country: <span id="max-country"></span></p>
+            <p>Lowest Total Confirmed Country: <span id="min-country"></span></p>
+            <div id="search">
+                <div>
+                    <label for="search-country">Select Country:</label>
+                    <input id="search-country" name="search-country" list="search-country-list">
+                    <datalist id="search-country-list"></datalist>
+                </div>
+                <div>
+                    <p>Total Confirmed:</p>
+                    <span></span>
+                </div>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Country</th>
+                        <th>Country Code</th>
+                        <th>Total Confirmed</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+    </main>
+    <script src="assets/js/index.js" type="module"></script>
+</body>
+
+</html>
